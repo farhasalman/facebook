@@ -1,0 +1,199 @@
+:root {
+    --facebook-blue: #3b5998;  /* Primary Facebook blue */
+    --light-blue: #8b9dc3;     /* Lighter blue */
+    --lighter-blue: #dfe3ee;   /* Even lighter blue */
+    --light-grey: #f7f7f7;     /* Light grey */
+    --white: #ffffff;          /* White */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "klavika-bold.otf";
+    background-color: #e9ebee;
+}
+@font-face {
+    font-family: "klavika-bold.otf";
+    src: url(../font/klavika-bold.otf);
+}
+
+/* Header */
+.top-bar {
+    background-color:var(--facebook-blue);
+    color:var(--white);
+    padding: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+.info1{
+    margin-right: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.info2{
+    margin-right: 20px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.info2 a{
+    color: var(--white);
+    margin-top: 5px;
+}
+.info input{
+    /* padding: 5px; */
+    margin-top: 5px;
+}
+
+.login-form{
+    margin-left: 600px;
+}
+
+.login-form input {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.login-form button {
+    background-color: var(--facebook-blue);
+    color:var(--white);
+    border: .2px solid black;
+    box-shadow: 2px 2px 5px rgba(72, 68, 68, 0.2);
+    padding: 8px 25px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+
+
+.forgot a{
+    padding-top: 20px;
+    color: var(--white);
+    margin-bottom: 2px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.left-section {
+
+    position: absolute; 
+    top: 20%; 
+    left: 0; 
+    
+    
+}
+.left-section img{
+    /* width:300px; */
+    height: 300px;
+    
+    
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.right-section {
+    
+    position: absolute;
+    top: 20%;
+    right: 10%;
+
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right-section p {
+    margin-bottom: 10px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid var(--white);
+    border-radius: 4px;
+}
+.birthday{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+  
+}
+#info {
+    color:var(--light-blue); 
+    font-size: 12px;
+    
+    
+  
+}
+select{
+    width: 20%;
+    height: 30px;
+}
+
+.gender {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.gender label {
+    margin-right: 10px;
+}
+
+.signup-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.right-section p a {
+    color: var(--light-blue);
+    text-decoration: none;
+}
